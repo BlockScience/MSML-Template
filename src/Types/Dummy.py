@@ -29,6 +29,12 @@ DummyIntegerType = {
     "notes": "A simple integer type",
 }
 
+DummyDecimalType = {
+    "name": "DUMMY Decimal Type",
+    "type": "DummyDecimalType",
+    "notes": "A decimal value",
+}
+
 
 dummy_types = [
     DummyType1,
@@ -37,4 +43,5 @@ dummy_types = [
     EntityType,
     DummyABCDEFType,
     DummyIntegerType,
+    DummyDecimalType,
 ]

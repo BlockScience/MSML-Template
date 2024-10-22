@@ -1,21 +1,21 @@
 dummy_parameter_set = {
-    "name": "Dummy Parameter Set",
-    "notes": "",
+    "name": "DUMMY Parameter Set",
+    "notes": "A set of dummy parameters",
     "parameters": [
         {
-            "variable_type": "Dummy Type 2",
+            "variable_type": "DUMMY Decimal Type",
             "name": "DUMMY D Probability",
             "description": "The probability that D is chosen",
             "symbol": None,
-            "domain": None,
+            "domain": "[0, 1]",
             "parameter_class": "Behavioral",
         },
         {
-            "variable_type": "Dummy Type 2",
+            "variable_type": "DUMMY Integer Type",
             "name": "DUMMY Length Multiplier",
             "description": "A multiplier to multiply into length calculations",
             "symbol": None,
-            "domain": None,
+            "domain": r"$\mathbb{Z}$",
             "parameter_class": "System",
         },
     ],
