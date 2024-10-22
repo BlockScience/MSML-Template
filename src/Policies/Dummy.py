@@ -18,7 +18,7 @@ dummy_policy = {
         "DUMMY String Length Space",
     ],
     "parameters_used": ["DUMMY Length Multiplier"],
-    "metrics_used": [],
+    "metrics_used": ["DUMMY Multiplied Length Metric"],
 }
 
 dummy_policies = [dummy_policy]
