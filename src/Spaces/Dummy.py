@@ -1,7 +1,7 @@
 dummy_abc_space = {
     "name": "DUMMY ABC Space",
     "schema": {
-        "string": "ABC Type",
+        "string": "DUMMY ABC Type",
     },
 }
 

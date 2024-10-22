@@ -1,6 +1,6 @@
 dummy_state = {
-    "name": "Dummy State",
-    "notes": "A dummy state",
+    "name": "DUMMY State",
+    "notes": "The state of the local DUMMY entity",
     "variables": [
         {
             "type": "Dummy Type 1",
