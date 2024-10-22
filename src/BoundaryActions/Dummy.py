@@ -1,5 +1,5 @@
 dummy_boundary_action_v1_option = {
-    "name": "V1 Dummy Boundary Action Option",
+    "name": "Length-1 ABC Equal Weight Option",
     "description": "Equal weighted probability of choosing A, B or C",
     "logic": "Select A, B, C with equal probabilities",
 }
@@ -18,13 +18,13 @@ dummy_boundary_action = {
 
 
 dummy_boundary_action2_v1_option = {
-    "name": "V1 Dummy Boundary Action 2 Option",
+    "name": "DUMMY Length-2 ABC Equal Weight Option",
     "description": "Equal weighted probability of choosing A, B or C each time",
     "logic": "Select A, B, C with equal probabilities",
 }
 
 dummy_boundary_action2_v2_option = {
-    "name": "V2 Dummy Boundary Action 2 Option",
+    "name": "DUMMY Length-2 ABC Equal Weight 2 Option",
     "description": "Equal weighted probability of choosing A, B or C for the first letter, and then equal probability of choose the left over 2 for the next one.",
     "logic": "Select A, B, C with equal probabilities. Then choose from the remaining two with equal probability.",
 }
