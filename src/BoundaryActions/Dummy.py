@@ -5,13 +5,13 @@ dummy_boundary_action_v1_option = {
 }
 
 dummy_boundary_action = {
-    "name": "Dummy Boundary Action",
+    "name": "DUMMY Length-1 ABC Boundary Action",
     "description": "Randomly returns either A, B, C",
     "constraints": [],
     "boundary_action_options": [dummy_boundary_action_v1_option],
-    "called_by": ["Dummy"],
+    "called_by": ["DUMMY Entity"],
     "codomain": [
-        "Dummy Space 1",
+        "DUMMY ABC Space",
     ],
     "parameters_used": [],
 }
@@ -30,16 +30,16 @@ dummy_boundary_action2_v2_option = {
 }
 
 dummy_boundary_action2 = {
-    "name": "Dummy Boundary Action 2",
-    "description": "Randomly returns any length 2 string of combinations of A, B, C",
+    "name": "DUMMY Length-2 ABC Combo Boundary Action",
+    "description": "Boundary action which returns a string of length 2 which is some combination of A, B, and C.",
     "constraints": [],
     "boundary_action_options": [
         dummy_boundary_action2_v1_option,
         dummy_boundary_action2_v2_option,
     ],
-    "called_by": ["Dummy"],
+    "called_by": ["DUMMY Entity"],
     "codomain": [
-        "Dummy Space 1",
+        "DUMMY ABC Space",
     ],
     "parameters_used": [],
 }
