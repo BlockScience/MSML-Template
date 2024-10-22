@@ -4,7 +4,7 @@ dummy_wiring.append(
     {
         "name": "Dummy Boundary Wiring",
         "components": [
-            "Dummy Boundary Action",
+            "DUMMY Length-1 ABC Boundary Action",
             "DUMMY Letter Count Policy",
             "DUMMY Log Results Mechanism",
         ],
@@ -18,7 +18,7 @@ dummy_wiring.append(
     {
         "name": "Dummy Control Wiring",
         "components": [
-            "Dummy Control Action",
+            "DUMMY Length-1 DEF Control Action",
             "DUMMY Letter Count Policy",
             "DUMMY Log Results Mechanism",
         ],
@@ -33,7 +33,7 @@ dummy_wiring.append(
     {
         "name": "Dummy Boundary Wiring 2",
         "components": [
-            "Dummy Boundary Action 2",
+            "DUMMY Length-2 ABC Combo Boundary Action",
             "DUMMY Letter Count Policy",
             "DUMMY Log Results Mechanism",
         ],
