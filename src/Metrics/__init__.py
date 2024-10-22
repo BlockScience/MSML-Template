@@ -1,4 +1,4 @@
-from .Dummy import metrics_x
+from .Dummy import dummy_metrics
 
 metrics = []
-metrics.extend(metrics_x)
+metrics.extend(dummy_metrics)

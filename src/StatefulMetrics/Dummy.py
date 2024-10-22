@@ -1,10 +1,10 @@
 dummy_stateful_metric = {
-    "name": "Dummy Stateful Metrics",
-    "notes": "",
+    "name": "DUMMY Stateful Metrics",
+    "notes": "A set of dummy stateful metrics",
     "metrics": [
         {
-            "type": "Dummy Type 2",
-            "name": "dummy_metric",
+            "type": "DUMMY Integer Type",
+            "name": "DUMMY Nominal Length Stateful Metric",
             "description": "The number of letters after the multiplier is taken off",
             "variables_used": [("DUMMY State", "Total Length")],
             "parameters_used": ["DUMMY Length Multiplier"],
