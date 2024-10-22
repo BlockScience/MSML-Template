@@ -1,9 +1,10 @@
 dummy_abc_space = {
-    "name": "DUMMY ABC Space",
+    "name": "DUMMY ABCDEF Space",
     "schema": {
-        "string": "DUMMY ABC Type",
+        "string": "DUMMY ABCDEF Type",
     },
 }
+
 
 dummy_space2 = {
     "name": "Dummy Space 2",

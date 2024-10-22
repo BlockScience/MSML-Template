@@ -11,7 +11,7 @@ dummy_boundary_action = {
     "boundary_action_options": [dummy_boundary_action_v1_option],
     "called_by": ["DUMMY Entity"],
     "codomain": [
-        "DUMMY ABC Space",
+        "DUMMY ABCDEF Space",
     ],
     "parameters_used": [],
 }
@@ -39,7 +39,7 @@ dummy_boundary_action2 = {
     ],
     "called_by": ["DUMMY Entity"],
     "codomain": [
-        "DUMMY ABC Space",
+        "DUMMY ABCDEF Space",
     ],
     "parameters_used": [],
 }

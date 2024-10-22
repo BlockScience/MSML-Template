@@ -1,26 +1,26 @@
 dummy_control_action_v1_option = {
-    "name": "V1 Dummy Control",
+    "name": "DUMMY Length-1 DEF Equal Weight Option",
     "description": "Equal weighted probability of choosing D, E or F each time",
     "logic": "Select D, E, F with equal probabilities",
 }
 
 dummy_control_action_v2_option = {
-    "name": "V2 Dummy Control",
+    "name": "DUMMY Length-1 DEF D Probability Option",
     "description": "Randomly picks between D, E, F based on the 'DUMMY D Probability' Parameter",
-    "logic": "PARAM['DUMMY D Probability'] chance of picking D, (1-['D Probability']) / 2 chance for the other two",
+    "logic": "Use PARAM['DUMMY D Probability'] for the chance of picking D, (1-['D Probability']) / 2 chance for the other two",
 }
 
 
 dummy_control_action = {
-    "name": "Dummy Control Action",
-    "description": "Randomly returns any length 1 string of combinations of D, E, F",
+    "name": "DUMMY Length-1 DEF Control Action",
+    "description": "Returns any length 1 string equal to D, E or F",
     "constraints": [],
     "control_action_options": [
         dummy_control_action_v1_option,
         dummy_control_action_v2_option,
     ],
     "codomain": [
-        "Dummy Space 1",
+        "DUMMY ABCDEF Space",
     ],
     "parameters_used": ["DUMMY D Probability"],
 }

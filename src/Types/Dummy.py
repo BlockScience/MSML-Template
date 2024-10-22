@@ -17,11 +17,11 @@ EntityType = {
     "notes": "",
 }
 
-DummyABCType = {
-    "name": "DUMMY ABC Type",
-    "type": "DummyABCType",
-    "notes": "This type will be a string but is constrained to only taking on the values of A, B and C",
+DummyABCDEFType = {
+    "name": "DUMMY ABCDEF Type",
+    "type": "DummyABCDEFType",
+    "notes": "This type will be a string but is constrained to only taking on the values of [A, B, C, D, E, F]",
 }
 
 
-dummy_types = [DummyType1, DummyType2, DummyCompoundType, EntityType, DummyABCType]
+dummy_types = [DummyType1, DummyType2, DummyCompoundType, EntityType, DummyABCDEFType]
