@@ -23,5 +23,18 @@ DummyABCDEFType = {
     "notes": "This type will be a string but is constrained to only taking on the values of [A, B, C, D, E, F]",
 }
 
+DummyIntegerType = {
+    "name": "DUMMY Integer Type",
+    "type": "DummyIntegerType",
+    "notes": "A simple integer type",
+}
 
-dummy_types = [DummyType1, DummyType2, DummyCompoundType, EntityType, DummyABCDEFType]
+
+dummy_types = [
+    DummyType1,
+    DummyType2,
+    DummyCompoundType,
+    EntityType,
+    DummyABCDEFType,
+    DummyIntegerType,
+]

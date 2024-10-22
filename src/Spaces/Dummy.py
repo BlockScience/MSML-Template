@@ -1,4 +1,4 @@
-dummy_abc_space = {
+dummy_abcedf_space = {
     "name": "DUMMY ABCDEF Space",
     "schema": {
         "string": "DUMMY ABCDEF Type",
@@ -6,9 +6,13 @@ dummy_abc_space = {
 }
 
 
-dummy_space2 = {
-    "name": "Dummy Space 2",
-    "schema": {"a": "Dummy Type 1", "b": "Dummy Type 1", "c": "Dummy Type 2"},
+dummy_string_length_space = {
+    "name": "DUMMY String Length Space",
+    "schema": {
+        "string": "DUMMY ABCDEF Type",
+        "length": "DUMMY Integer Type",
+        "unique_length": "DUMMY Integer Type",
+    },
 }
 
-dummy_spaces = [dummy_abc_space, dummy_space2]
+dummy_spaces = [dummy_abcedf_space, dummy_string_length_space]

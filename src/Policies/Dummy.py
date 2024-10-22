@@ -10,10 +10,10 @@ dummy_policy = {
     "constraints": [],
     "policy_options": [dummy_policy_option1],
     "domain": [
-        "Dummy Space 1",
+        "DUMMY ABCDEF Space",
     ],
     "codomain": [
-        "Dummy Space 2",
+        "DUMMY String Length Space",
     ],
     "parameters_used": ["DUMMY Length Multiplier"],
     "metrics_used": [],
