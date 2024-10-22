@@ -8,7 +8,7 @@ dummy_mechanism = {
         "DUMMY String Length Space",
     ],
     "parameters_used": [],
-    "updates": [("Dummy", "Words", False), ("Dummy", "Total Length", False)],
+    "updates": [("DUMMY", "Words", False), ("DUMMY", "Total Length", False)],
 }
 
 dummy_mechanisms = [dummy_mechanism]
