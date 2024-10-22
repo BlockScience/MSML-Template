@@ -2,7 +2,7 @@ dummy_wiring = []
 
 dummy_wiring.append(
     {
-        "name": "Dummy Boundary Wiring",
+        "name": "DUMMY Length-1 Boundary Wiring",
         "components": [
             "DUMMY Length-1 ABC Boundary Action",
             "DUMMY Letter Count Policy",
@@ -16,7 +16,7 @@ dummy_wiring.append(
 
 dummy_wiring.append(
     {
-        "name": "Dummy Control Wiring",
+        "name": "DUMMY Control Wiring",
         "components": [
             "DUMMY Length-1 DEF Control Action",
             "DUMMY Letter Count Policy",
@@ -31,7 +31,7 @@ dummy_wiring.append(
 
 dummy_wiring.append(
     {
-        "name": "Dummy Boundary Wiring 2",
+        "name": "DUMMY Length-2 Boundary Wiring",
         "components": [
             "DUMMY Length-2 ABC Combo Boundary Action",
             "DUMMY Letter Count Policy",
