@@ -3,14 +3,14 @@ dummy_state = {
     "notes": "The state of the local DUMMY entity",
     "variables": [
         {
-            "type": "Dummy Type 1",
+            "type": "DUMMY ABCDEF Type",
             "name": "Words",
             "description": "All words that were created",
             "symbol": None,
             "domain": None,
         },
         {
-            "type": "Dummy Type 2",
+            "type": "DUMMY Integer Type",
             "name": "Total Length",
             "description": "The total length of words * multiplier",
             "symbol": None,
