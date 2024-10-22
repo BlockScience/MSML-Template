@@ -7,7 +7,9 @@ dummy_policy_option1 = {
 dummy_policy = {
     "name": "DUMMY Letter Count Policy",
     "description": "The policy returns the original variable for the passed string as well as all unique letters used and the total number of characters in the string times the multiplier parameter.",
-    "constraints": [],
+    "constraints": [
+        "The string in the first domain space must only contain the letters of A, B, C, D, E, F"
+    ],
     "policy_options": [dummy_policy_option1],
     "domain": [
         "DUMMY ABCDEF Space",
