@@ -16,5 +16,12 @@ global_state = {
             "symbol": None,
             "domain": None,
         },
+        {
+            "type": "Simulation Log Type",
+            "name": "Simulation Log",
+            "description": "The simulation log holding historical data",
+            "symbol": None,
+            "domain": None,
+        },
     ],
 }

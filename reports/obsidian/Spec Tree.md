@@ -13,14 +13,16 @@ cssclasses:
 │   ├──[[Global State]]
 │   │   ├──[[Global State-Dummy\|Dummy]]
 │   │   ├──[[Global State-Time\|Time]]
+│   │   ├──[[Global State-Simulation Log\|Simulation Log]]
 ├──**Stateful Metrics**
 │   ├──DUMMY Stateful Metrics
 │   │   ├──[[DUMMY Nominal Length Stateful Metric]]
 ├──**Types**
-│   ├──[[Entity Type]]
 │   ├──[[DUMMY ABCDEF Type]]
 │   ├──[[DUMMY Integer Type]]
 │   ├──[[DUMMY Decimal Type]]
+│   ├──[[Entity Type]]
+│   ├──[[Simulation Log Type]]
 ├──**Spaces**
 │   ├──[[Terminating Space]]
 │   ├──[[Empty Space]]
@@ -40,3 +42,4 @@ cssclasses:
 ├──**Mechanisms**
 │   ├──[[DUMMY Update Dummy Entity Mechanism]]
 │   ├──[[DUMMY Increment Time Mechanism]]
+│   ├──[[DUMMY Log Simulation Data Mechanism]]

@@ -26,5 +26,21 @@ dummy_increment_time_mechanism = {
     ],
 }
 
+dummy_log_simulation_data_mechanism = {
+    "name": "DUMMY Log Simulation Data Mechanism",
+    "description": "A mechanism for logging simulation data",
+    "constraints": [],
+    "logic": """Append simulation data to the simulation log""",
+    "domain": [],
+    "parameters_used": [],
+    "updates": [
+        ("Global", "Simulation Log", False),
+    ],
+}
 
-dummy_mechanisms = [dummy_mechanism, dummy_increment_time_mechanism]
+
+dummy_mechanisms = [
+    dummy_mechanism,
+    dummy_increment_time_mechanism,
+    dummy_log_simulation_data_mechanism,
+]
