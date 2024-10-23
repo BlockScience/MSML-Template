@@ -1,0 +1,9 @@
+import pandas as pd
+
+
+def post_processing_function(state, params):
+    df = pd.DataFrame(state["Simulation Log"])
+    df["Length (Nominal)"] = (
+        df["Length (Multiplied)"] / params["DUMMY Length Multiplier"]
+    )
+    return df
