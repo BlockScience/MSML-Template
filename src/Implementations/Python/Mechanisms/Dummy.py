@@ -1,4 +1,4 @@
-def dummy_log_results_mechanism(state, params, spaces):
+def dummy_update_dummy_entity_mechanism(state, params, spaces):
     new_string = spaces[0]["string"]
     new_length = spaces[0]["length"]
     state["Dummy"]["Words"] += new_string

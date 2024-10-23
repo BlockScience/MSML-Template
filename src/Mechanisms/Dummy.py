@@ -1,5 +1,5 @@
 dummy_mechanism = {
-    "name": "DUMMY Log Results Mechanism",
+    "name": "DUMMY Update Dummy Entity Mechanism",
     "description": "A mechanism which appends the word just added and also increments the total length",
     "constraints": [],
     "logic": """1. Append the string from DOMAIN[0] to the Words state variable for DUMMY entity

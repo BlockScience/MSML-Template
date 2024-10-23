@@ -14,8 +14,8 @@ The state of the local DUMMY entity
 ### [[DUMMY Length-1 ABC Boundary Action]]
 ### [[DUMMY Length-2 ABC Combo Boundary Action]]
 ## Mechanisms Impacting the Entity
-### [[DUMMY Log Results Mechanism]]
-### [[DUMMY Log Results Mechanism]]
+### [[DUMMY Update Dummy Entity Mechanism]]
+### [[DUMMY Update Dummy Entity Mechanism]]
 ## Actions Impacting the Entity
 ### [[DUMMY Length-2 ABC Combo Boundary Action]]
 ### [[DUMMY Length-1 DEF Control Action]]

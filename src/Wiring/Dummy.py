@@ -47,7 +47,10 @@ dummy_wiring.append(
 dummy_wiring.append(
     {
         "name": "DUMMY State Update Mechanisms",
-        "components": ["DUMMY Log Results Mechanism", "DUMMY Increment Time Mechanism"],
+        "components": [
+            "DUMMY Update Dummy Entity Mechanism",
+            "DUMMY Increment Time Mechanism",
+        ],
         "description": "Mechanisms for updating the state of the system",
         "constraints": [],
         "type": "Parallel",

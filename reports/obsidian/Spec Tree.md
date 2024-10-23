@@ -38,5 +38,5 @@ cssclasses:
 ├──**Policies**
 │   ├──[[DUMMY Letter Count Policy]]
 ├──**Mechanisms**
-│   ├──[[DUMMY Log Results Mechanism]]
+│   ├──[[DUMMY Update Dummy Entity Mechanism]]
 │   ├──[[DUMMY Increment Time Mechanism]]

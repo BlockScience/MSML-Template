@@ -20,7 +20,7 @@ X1["DUMMY Length-1 ABC Boundary Action"]
 X2["DUMMY Letter Count Policy"]
 subgraph X7["DUMMY State Update Mechanisms"]
 direction TB
-X3["DUMMY Log Results Mechanism"]
+X3["DUMMY Update Dummy Entity Mechanism"]
 X3 --> EES1
 X3 --> EES0
 X4["DUMMY Increment Time Mechanism"]
@@ -57,7 +57,7 @@ X1["DUMMY Length-2 ABC Combo Boundary Action"]
 X2["DUMMY Letter Count Policy"]
 subgraph X7["DUMMY State Update Mechanisms"]
 direction TB
-X3["DUMMY Log Results Mechanism"]
+X3["DUMMY Update Dummy Entity Mechanism"]
 X3 --> EES1
 X3 --> EES0
 X4["DUMMY Increment Time Mechanism"]
@@ -86,7 +86,7 @@ The wirings related to only boundary type actions.
 2. [[DUMMY Length-1 ABC Boundary Action]]
 3. [[DUMMY Length-2 ABC Combo Boundary Action]]
 4. [[DUMMY Letter Count Policy]]
-5. [[DUMMY Log Results Mechanism]]
+5. [[DUMMY Update Dummy Entity Mechanism]]
 
 ## Unique Parameters Used
 1. [[DUMMY Length Multiplier]]

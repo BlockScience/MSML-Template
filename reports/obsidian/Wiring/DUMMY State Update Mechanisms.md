@@ -16,7 +16,7 @@ end
 
 subgraph X5["DUMMY State Update Mechanisms"]
 direction TB
-X1["DUMMY Log Results Mechanism"]
+X1["DUMMY Update Dummy Entity Mechanism"]
 X1 --> EES1
 X1 --> EES0
 X2["DUMMY Increment Time Mechanism"]
@@ -35,12 +35,12 @@ end
 Block Type: Parallel Block
 Mechanisms for updating the state of the system
 ## Components
-1. [[DUMMY Log Results Mechanism]]
+1. [[DUMMY Update Dummy Entity Mechanism]]
 2. [[DUMMY Increment Time Mechanism]]
 
 ## All Blocks
 1. [[DUMMY Increment Time Mechanism]]
-2. [[DUMMY Log Results Mechanism]]
+2. [[DUMMY Update Dummy Entity Mechanism]]
 
 ## Constraints
 

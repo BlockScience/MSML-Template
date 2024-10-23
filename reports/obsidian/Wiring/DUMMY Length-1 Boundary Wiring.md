@@ -20,7 +20,7 @@ X1["DUMMY Length-1 ABC Boundary Action"]
 X2["DUMMY Letter Count Policy"]
 subgraph X7["DUMMY State Update Mechanisms"]
 direction TB
-X3["DUMMY Log Results Mechanism"]
+X3["DUMMY Update Dummy Entity Mechanism"]
 X3 --> EES1
 X3 --> EES0
 X4["DUMMY Increment Time Mechanism"]
@@ -50,7 +50,7 @@ Dummy Boundary Block
 1. [[DUMMY Increment Time Mechanism]]
 2. [[DUMMY Length-1 ABC Boundary Action]]
 3. [[DUMMY Letter Count Policy]]
-4. [[DUMMY Log Results Mechanism]]
+4. [[DUMMY Update Dummy Entity Mechanism]]
 
 ## Constraints
 
