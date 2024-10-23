@@ -9,5 +9,12 @@ global_state = {
             "symbol": None,
             "domain": None,
         },
+        {
+            "type": "DUMMY Integer Type",
+            "name": "Time",
+            "description": "The clock time",
+            "symbol": None,
+            "domain": None,
+        },
     ],
 }

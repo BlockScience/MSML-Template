@@ -17,6 +17,7 @@ The policy returns the original variable for the passed string as well as all un
 ## Parameters Used
 1. [[DUMMY Length Multiplier]]
 ## Metrics Used
+1. [[DUMMY Multiplied Length Metric]]
 ## Policy Options
 ### 1. DUMMY Letter Count Policy V1
 #### Description

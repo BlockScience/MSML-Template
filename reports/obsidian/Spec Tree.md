@@ -12,6 +12,7 @@ cssclasses:
 │   │   ├──[[DUMMY State-Total Length\|Total Length]]
 │   ├──[[Global State]]
 │   │   ├──[[Global State-Dummy\|Dummy]]
+│   │   ├──[[Global State-Time\|Time]]
 ├──**Stateful Metrics**
 │   ├──DUMMY Stateful Metrics
 │   │   ├──[[DUMMY Nominal Length Stateful Metric]]
@@ -38,3 +39,4 @@ cssclasses:
 │   ├──[[DUMMY Letter Count Policy]]
 ├──**Mechanisms**
 │   ├──[[DUMMY Log Results Mechanism]]
+│   ├──[[DUMMY Increment Time Mechanism]]
