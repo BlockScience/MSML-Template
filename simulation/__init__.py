@@ -1,2 +1,2 @@
 from .config import state_base, params_base
-from .preprocessing import compute_starting_total_length
+from .preprocessing import compute_starting_total_length, check_d_probability

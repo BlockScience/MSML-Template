@@ -1,1 +1,1 @@
-from .dummy import compute_starting_total_length
+from .dummy import compute_starting_total_length, check_d_probability
