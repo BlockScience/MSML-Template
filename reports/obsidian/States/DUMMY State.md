@@ -8,5 +8,5 @@ The state of the local DUMMY entity
 
 
 ## Updated By
-### [[DUMMY Log Results Mechanism]]
-### [[DUMMY Log Results Mechanism]]
+### [[DUMMY Update Dummy Entity Mechanism]]
+### [[DUMMY Update Dummy Entity Mechanism]]

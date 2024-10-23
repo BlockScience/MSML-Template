@@ -8,8 +8,8 @@ The policy returns the original variable for the passed string as well as all un
 ## Domain Spaces
 1. [[DUMMY ABCDEF Space]]
 ## Followed By
-1. [[DUMMY Log Results Mechanism]]
-2. [[DUMMY Log Results Mechanism]]
+1. [[DUMMY Update Dummy Entity Mechanism]]
+2. [[DUMMY Update Dummy Entity Mechanism]]
 ## Codomain Spaces
 1. [[DUMMY String Length Space]]
 ## Constraints
@@ -17,6 +17,7 @@ The policy returns the original variable for the passed string as well as all un
 ## Parameters Used
 1. [[DUMMY Length Multiplier]]
 ## Metrics Used
+1. [[DUMMY Multiplied Length Metric]]
 ## Policy Options
 ### 1. DUMMY Letter Count Policy V1
 #### Description

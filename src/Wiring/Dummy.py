@@ -6,7 +6,8 @@ dummy_wiring.append(
         "components": [
             "DUMMY Length-1 ABC Boundary Action",
             "DUMMY Letter Count Policy",
-            "DUMMY Log Results Mechanism",
+            "DUMMY State Update Mechanisms",
+            "DUMMY Log Simulation Data Mechanism",
         ],
         "description": "Dummy Boundary Block",
         "constraints": [],
@@ -20,7 +21,8 @@ dummy_wiring.append(
         "components": [
             "DUMMY Length-1 DEF Control Action",
             "DUMMY Letter Count Policy",
-            "DUMMY Log Results Mechanism",
+            "DUMMY State Update Mechanisms",
+            "DUMMY Log Simulation Data Mechanism",
         ],
         "description": "Dummy Control Block",
         "constraints": [],
@@ -35,10 +37,25 @@ dummy_wiring.append(
         "components": [
             "DUMMY Length-2 ABC Combo Boundary Action",
             "DUMMY Letter Count Policy",
-            "DUMMY Log Results Mechanism",
+            "DUMMY State Update Mechanisms",
+            "DUMMY Log Simulation Data Mechanism",
         ],
         "description": "Dummy Boundary Block",
         "constraints": [],
         "type": "Stack",
+    }
+)
+
+
+dummy_wiring.append(
+    {
+        "name": "DUMMY State Update Mechanisms",
+        "components": [
+            "DUMMY Update Dummy Entity Mechanism",
+            "DUMMY Increment Time Mechanism",
+        ],
+        "description": "Mechanisms for updating the state of the system",
+        "constraints": [],
+        "type": "Parallel",
     }
 )

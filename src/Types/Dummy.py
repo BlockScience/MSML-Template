@@ -1,12 +1,3 @@
-from typing import NewType, TypedDict
-
-
-EntityType = {
-    "name": "Entity Type",
-    "type": "EntityType",
-    "notes": "",
-}
-
 DummyABCDEFType = {
     "name": "DUMMY ABCDEF Type",
     "type": "DummyABCDEFType",
@@ -27,7 +18,6 @@ DummyDecimalType = {
 
 
 dummy_types = [
-    EntityType,
     DummyABCDEFType,
     DummyIntegerType,
     DummyDecimalType,
