@@ -7,3 +7,13 @@ def dummy_update_dummy_entity_mechanism(state, params, spaces):
 
 def dummy_increment_time_mechanism(state, params, spaces):
     state["Time"] += 1
+
+
+def dummy_log_simulation_data_mechanism(state, params, spaces):
+    state["Simulation Log"].append(
+        {
+            "Time": state["Time"],
+            "Word": state["Dummy"]["Words"],
+            "Length (Multiplied)": state["Dummy"]["Total Length"],
+        }
+    )
