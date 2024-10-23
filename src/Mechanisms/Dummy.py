@@ -14,4 +14,17 @@ dummy_mechanism = {
     ],
 }
 
-dummy_mechanisms = [dummy_mechanism]
+dummy_increment_time_mechanism = {
+    "name": "DUMMY Increment Time Mechanism",
+    "description": "A mechanism which adds one to the clock time",
+    "constraints": [],
+    "logic": """1. Increment the global time by 1""",
+    "domain": [],
+    "parameters_used": [],
+    "updates": [
+        ("Global", "Time", False),
+    ],
+}
+
+
+dummy_mechanisms = [dummy_mechanism, dummy_increment_time_mechanism]
