@@ -26,8 +26,15 @@ There are four notebooks built in which will listed sequentially by what order i
 - The build_implementation function creates an implementation object that can then be used for executing code
 - The prepare_state_and_params function creates a state and parameter to use for running the code, the simulation folder section explains the details more
 - The rest of the code blocks show how to run different components and wirings
-3. Single Simulation:
-4. Experiment Simulations:
+3. Single Simulation: This notebook is for running one single simulation, especially for testing out if the wirings all work together
+- The first code block loads and runs the experiment
+- Blocks are defined out by their name and all that one needs to do is write out the sequential queue of blocks that should happen and it can be in any ordering with or without any repeating
+- The run_experiment function will run the blocks but needs a post-processing function for defining out how the results should be finalized, state and parameter preperation functions for any pre-processing, and finally optional metrics functions for any simulation level metrics to collect
+- The visualizations and data can be played with as shown below
+4. Experiment Simulations: The notebook for running a set of experiments
+- The experiments are defined within the simulation folder but are brought in here for making the code more legible but one can also write experiments in-line
+- The run_experiments function runs similar to the run_experiment function except it is extended to multiple simulations and also can run monte carlo runs
+- The second code block is for automated documentation of the starting parameters and starting state taken from the spec components and base state and base parameters
 
 ## Reports Folder
 
