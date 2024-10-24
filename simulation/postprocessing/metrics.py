@@ -5,6 +5,4 @@ def percent_ending_in_d_metric(metrics, state, params, df):
 
 
 def average_d_count_metric(metrics, state, params, df):
-    metrics["Average D Count"] = (
-        df["Word"].apply(lambda x: x.count("D") if len(x) > 0 else None).mean()
-    )
+    metrics["Average D Count"] = df["D Count"].mean()

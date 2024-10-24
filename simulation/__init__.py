@@ -5,4 +5,8 @@ from .postprocessing import (
     percent_ending_in_d_metric,
     average_d_count_metric,
 )
-from .analytics import plot_length_single_simulation
+from .analytics import (
+    plot_length_single_simulation,
+    plot_length_experiment_simulation,
+    plot_d_count_experiment_simulation,
+)
