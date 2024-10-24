@@ -31,6 +31,10 @@ There are four notebooks built in which will listed sequentially by what order i
 
 ## Reports Folder
 
+- The reports folder currently just holds one folder which is the obsidian folder
+- Opening this folder up in Obsidian allows you to browse through the entire system and all components
+- All of the components get refreshed every time you run the "Build Obsidian" notebook so be careful to not write any updates into this
+
 ## Simulation Folder
 
 
