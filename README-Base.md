@@ -52,7 +52,20 @@ There are four notebooks built in which will listed sequentially by what order i
 
 ### Config
 
+- The config folder is made up of 3 modules:
+1. State: Dictionaries defining out default starting states which can be used for standardization of different sets of experiments, tests, etc.
+2. Params: Dictionaries defining out default parameters for similar purposes as the state
+3. Experiment: Definitions for different experiments, each one is keyed into the experiments_map dictionary with a set of blocks to run, a number of monte carlo simulations and optional dictionaries for `State Modifications` and `Param Modifications` which will be used to overwrite default state and default parameters with any attributes passed in for overwriting 
+
 ### Preprocessing
+
+- The preprocessing folder does not have any formal structure other than the fact that there should be two types of functions:
+1. State Preperation Functions: Functions that take arguments of state and parameters and modify something in the state at run time
+    - These functions must return the modified state object
+    - These functions are useful for a variety of things such as defining out mappings or filling in state based on another state variable such as filling in a variable of `Number of Entities` based on how many entities are in the starting state passed
+2. Parameter Preperation Functions: Functions that take arguments of either just parameters or parameters and state and likewise update the parameter set
+    - These functions must return the modified params object
+    - An example here is if you have a parameter `Param A` that always has to be 1 - `Param B`, you can have a function that fills it in automatically
 
 ### Postprocessing
 
