@@ -59,7 +59,7 @@ There are four notebooks built in which will listed sequentially by what order i
 
 ### Preprocessing
 
-- The preprocessing folder does not have any formal structure other than the fact that there should be two types of functions:
+- The preprocessing folder has two modules for two types of functions:
 1. State Preperation Functions: Functions that take arguments of state and parameters and modify something in the state at run time
     - These functions must return the modified state object
     - These functions are useful for a variety of things such as defining out mappings or filling in state based on another state variable such as filling in a variable of `Number of Entities` based on how many entities are in the starting state passed
@@ -68,6 +68,8 @@ There are four notebooks built in which will listed sequentially by what order i
     - An example here is if you have a parameter `Param A` that always has to be 1 - `Param B`, you can have a function that fills it in automatically
 
 ### Postprocessing
+
+- The post processing module has two folders
 
 ### Analytics
 
