@@ -69,8 +69,15 @@ There are four notebooks built in which will listed sequentially by what order i
 
 ### Postprocessing
 
-- The post processing module has two folders
+- The post processing folder has two module:
+1. Post: A folder which defines out the post-processing function to execute after each simulation
+    - Taking in state and params as arguments, it returns a dataframe which then will have the simulation metadata attatched to it of experiment and monte carlo run automatically
+2. Metrics: Functions which add simulation metrics taking as arguments the current metrics dictionary, state, params and the simulation dataframe
+    - These functions just need to write a key into the metrics dictionary
 
 ### Analytics
+
+- The analytics folder can be broken up however one wants, but creating modules for analytics/visualizations on single runs versus on mutliple runs in experiments can be useful
+- These functions are completely as needed/wanted, there is no formal structure other than what works for you
 
 ## Tests Folder
