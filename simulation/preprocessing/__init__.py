@@ -1,1 +1,2 @@
-from .dummy import compute_starting_total_length, check_d_probability
+from .state_preperation import compute_starting_total_length
+from .param_preperation import check_d_probability
