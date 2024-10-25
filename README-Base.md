@@ -44,6 +44,18 @@ There are four notebooks built in which will listed sequentially by what order i
 
 ## Simulation Folder
 
+- The simulation folder takes care of all functionality specific to simulations and is broken down into four folders:
+1. Config: A folder with all simulation configurations and baseline settings
+2. Preprocessing: Any functionality that needs to run directly before simulation runs
+3. Postprocessing: A folder with all functionality to run directly after simulations are run including metric computations and final processing into dataframes
+4. Analytics: All visualizations and other analytics for analyzing simulations after runs
 
+### Config
+
+### Preprocessing
+
+### Postprocessing
+
+### Analytics
 
 ## Tests Folder
