@@ -81,3 +81,7 @@ There are four notebooks built in which will listed sequentially by what order i
 - These functions are completely as needed/wanted, there is no formal structure other than what works for you
 
 ## Tests Folder
+
+- The tests folder shows two interactive notebooks for testing of components and simulations:
+1. DUMMY Wiring Test: Simple notebook which shows how one can test component by component and by wiring
+2. DUMMY Economic Test: Simple notebook to show how to take an intuition around what a simulation result should look like and test for it
