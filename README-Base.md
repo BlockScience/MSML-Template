@@ -5,12 +5,14 @@ The following repository is a template for use in constructing MSML specs. The c
 ## The Dummy Model
 
 ## SRC Folder
-- All the components in here with the exception of implementations are JSON style components that get read into the MSML library for building the specification
+- All the components in here with the exception of implementations/type mappings are JSON style components that get read into the MSML library for building the specification
     - The MSML documentation details what each type of component is
 - Implementations is the folder where Python code can be created to be bound to components
     - For boundary actions, control actions, and policies, the implementations need to have the same name as the different boundary/control/policy options
     - For mechanisms the implementation name should be the same as the mechanism name
     - All will take in state, parameters, and spaces (as a list) and can optionally return spaces (as a list)
+- TypeMappings is the folder for mapping the different variable types for different programming languages
+    - This allows for translating different typings and spaces across different languages
 
 ## Notebooks Folder
 
@@ -81,3 +83,7 @@ There are four notebooks built in which will listed sequentially by what order i
 - These functions are completely as needed/wanted, there is no formal structure other than what works for you
 
 ## Tests Folder
+
+- The tests folder shows two interactive notebooks for testing of components and simulations:
+1. DUMMY Wiring Test: Simple notebook which shows how one can test component by component and by wiring
+2. DUMMY Economic Test: Simple notebook to show how to take an intuition around what a simulation result should look like and test for it

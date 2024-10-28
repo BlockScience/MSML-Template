@@ -1,4 +1,8 @@
 ## Type
+### Python Type
+list
+### Typescript Type
+type SimulationLogType = object[]
 
 ## Notes
 

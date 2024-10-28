@@ -1,4 +1,8 @@
 ## Type
+### Python Type
+str
+### Typescript Type
+type DummyABCDEFType = string
 
 ## Notes
 

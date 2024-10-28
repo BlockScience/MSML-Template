@@ -1,4 +1,11 @@
-from .config import state_base, params_base, experiments_map
+from .config import (
+    state_base,
+    params_base,
+    experiments_map,
+    state_test1,
+    params_test1,
+    params_test2,
+)
 from .preprocessing import compute_starting_total_length, check_d_probability
 from .postprocessing import (
     post_processing_function,
