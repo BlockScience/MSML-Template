@@ -4,6 +4,145 @@ The following repository is a template for use in constructing MSML specs. The c
 
 ## The Dummy Model
 
+- The dummy model is meant to show the very basics of functionality but does not have any actual real world use, nonetheless, we will review the components
+- The high level idea is that the wirings append different letters to a dummy state the carries an overall string produced over time
+- The following are the wiring diagrams of the three wirings which we will then walk through the components of:
+
+```mermaid
+graph TB
+
+subgraph SVS["State Variables"]
+EE0[("DUMMY Entity")]
+EE1[("Global")]
+EES0(["Total Length"])
+EES0 --- EE0
+EES1(["Words"])
+EES1 --- EE0
+EES2(["Simulation Log"])
+EES2 --- EE1
+EES3(["Time"])
+EES3 --- EE1
+end
+
+subgraph X9["DUMMY Control Wiring"]
+direction TB
+X1["DUMMY Length-1 DEF Control Action"]
+X2["DUMMY Letter Count Policy"]
+subgraph X7["DUMMY State Update Mechanisms"]
+direction TB
+X3["DUMMY Update Dummy Entity Mechanism"]
+X3 --> EES1
+X3 --> EES0
+X4["DUMMY Increment Time Mechanism"]
+X4 --> EES3
+X5[Domain]
+
+direction LR
+direction TB
+X5 --"DUMMY String Length Space"--> X3
+X5 --> X4
+end
+X8["DUMMY Log Simulation Data Mechanism"]
+X8 --> EES2
+X1--"DUMMY ABCDEF Space"--->X2
+X2-."DUMMY String Length Space"..->X7
+X7--->X8
+end
+```
+
+```mermaid
+graph TB
+
+subgraph SVS["State Variables"]
+EE0[("DUMMY Entity")]
+EE1[("Global")]
+EES0(["Total Length"])
+EES0 --- EE0
+EES1(["Words"])
+EES1 --- EE0
+EES2(["Simulation Log"])
+EES2 --- EE1
+EES3(["Time"])
+EES3 --- EE1
+end
+
+subgraph X9["DUMMY Length-1 Boundary Wiring"]
+direction TB
+X1["DUMMY Length-1 ABC Boundary Action"]
+X2["DUMMY Letter Count Policy"]
+subgraph X7["DUMMY State Update Mechanisms"]
+direction TB
+X3["DUMMY Update Dummy Entity Mechanism"]
+X3 --> EES1
+X3 --> EES0
+X4["DUMMY Increment Time Mechanism"]
+X4 --> EES3
+X5[Domain]
+
+direction LR
+direction TB
+X5 --"DUMMY String Length Space"--> X3
+X5 --> X4
+end
+X8["DUMMY Log Simulation Data Mechanism"]
+X8 --> EES2
+X1--"DUMMY ABCDEF Space"--->X2
+X2--"DUMMY String Length Space"--->X7
+X7--->X8
+end
+```
+
+```mermaid
+graph TB
+
+subgraph SVS["State Variables"]
+EE0[("DUMMY Entity")]
+EE1[("Global")]
+EES0(["Total Length"])
+EES0 --- EE0
+EES1(["Words"])
+EES1 --- EE0
+EES2(["Simulation Log"])
+EES2 --- EE1
+EES3(["Time"])
+EES3 --- EE1
+end
+
+subgraph X9["DUMMY Length-2 Boundary Wiring"]
+direction TB
+X1["DUMMY Length-2 ABC Combo Boundary Action"]
+X2["DUMMY Letter Count Policy"]
+subgraph X7["DUMMY State Update Mechanisms"]
+direction TB
+X3["DUMMY Update Dummy Entity Mechanism"]
+X3 --> EES1
+X3 --> EES0
+X4["DUMMY Increment Time Mechanism"]
+X4 --> EES3
+X5[Domain]
+
+direction LR
+direction TB
+X5 --"DUMMY String Length Space"--> X3
+X5 --> X4
+end
+X8["DUMMY Log Simulation Data Mechanism"]
+X8 --> EES2
+X1--"DUMMY ABCDEF Space"--->X2
+X2--"DUMMY String Length Space"--->X7
+X7--->X8
+end
+```
+
+- The components are defined as the following:
+	- DUMMY Length-1 ABC Boundary Action: Creates a new string to add with length 1 which is either A, B, or C
+	- DUMMY Length-2 ABC Combo Boundary Action: Creates a new string to add with length 2 which are combinations of A, B, C
+	- DUMMY Length-1 DEF Control Action: Creates a new string of length 1 with either D, E, or F as the value
+	- DUMMY Letter Count Policy: The policy which determines the length which equals the string length multiplied by a parameter for amplification of length (this is just to display how parameters work, it wouldn't make sense in the real world)
+	- DUMMY Update Dummy Entity Mechanism: Mechanism for updating the dummy local state
+	- DUMMY Increment Time Mechanism: Mechanism for updating the global time
+	- DUMMY Log Simulation Data Mechanism: Mechanism for appending to the simulation log the current results
+
 ## SRC Folder
 - All the components in here with the exception of implementations/type mappings are JSON style components that get read into the MSML library for building the specification
     - The MSML documentation details what each type of component is

@@ -1,4 +1,4 @@
-from .types import EntityType, DummyABCDEFType, SimulationLogType, DummyIntegerType
+from .types import SimulationLogType, EntityType, DummyABCDEFType, DummyIntegerType
 from typing import TypedDict
 
 DUMMYState = TypedDict('DUMMY State', {'Words': DummyABCDEFType, 'Total Length': DummyIntegerType})
