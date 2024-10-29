@@ -135,6 +135,13 @@ end
 ```
 
 - The components are defined as the following:
+	- DUMMY Length-1 ABC Boundary Action: Creates a new string to add with length 1 which is either A, B, or C
+	- DUMMY Length-2 ABC Combo Boundary Action: Creates a new string to add with length 2 which are combinations of A, B, C
+	- DUMMY Length-1 DEF Control Action: Creates a new string of length 1 with either D, E, or F as the value
+	- DUMMY Letter Count Policy: The policy which determines the length which equals the string length multiplied by a parameter for amplification of length (this is just to display how parameters work, it wouldn't make sense in the real world)
+	- DUMMY Update Dummy Entity Mechanism: Mechanism for updating the dummy local state
+	- DUMMY Increment Time Mechanism: Mechanism for updating the global time
+	- DUMMY Log Simulation Data Mechanism: Mechanism for appending to the simulation log the current results
 
 ## SRC Folder
 - All the components in here with the exception of implementations/type mappings are JSON style components that get read into the MSML library for building the specification
