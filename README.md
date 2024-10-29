@@ -16,7 +16,7 @@ The following repository is a template for use in constructing MSML specs. The c
 
 ## Notebooks Folder
 
-There are four notebooks built in which will listed sequentially by what order in which one would be using them based on project timeline
+There are five notebooks built in which will listed sequentially by what order in which one would be using them based on project timeline
 
 1. Build Obsidian: The notebook for building the Obsidian reports
 - The first code block is for loading the spec, it will flag if certain things are broken or not properly connected
@@ -37,6 +37,7 @@ There are four notebooks built in which will listed sequentially by what order i
 - The experiments are defined within the simulation folder but are brought in here for making the code more legible but one can also write experiments in-line
 - The run_experiments function runs similar to the run_experiment function except it is extended to multiple simulations and also can run monte carlo runs
 - The second code block is for automated documentation of the starting parameters and starting state taken from the spec components and base state and base parameters
+5. Metaprogramming: A work-in-progress piece of MSML, metaprogramming will one day allow for transcription of MSML models to cadCAD models automatically
 
 ## Reports Folder
 
@@ -87,6 +88,10 @@ There are four notebooks built in which will listed sequentially by what order i
 - The tests folder shows two interactive notebooks for testing of components and simulations:
 1. DUMMY Wiring Test: Simple notebook which shows how one can test component by component and by wiring
 2. DUMMY Economic Test: Simple notebook to show how to take an intuition around what a simulation result should look like and test for it
+
+## Model Folder
+
+- The model folder is work-in-progress for metaprogramming and eventually will host all components of a cadCAD model automatically transcribed from an MSML spec
 <h2>Specification Tree</h2>
 
 ```
