@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Displays/Wiring/Boundary Wirings.md",
-                "mode": "source",
+                "file": "Metrics/DUMMY Multiplied Length Metric.md",
+                "mode": "preview",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "DUMMY Multiplied Length Metric"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Displays/Wiring/Boundary Wirings.md",
+                "file": "Metrics/DUMMY Multiplied Length Metric.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for DUMMY Multiplied Length Metric"
             }
           },
           {
@@ -102,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Displays/Wiring/Boundary Wirings.md",
+                "file": "Metrics/DUMMY Multiplied Length Metric.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from DUMMY Multiplied Length Metric"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Displays/Wiring/Boundary Wirings.md"
-              }
+                "file": "Metrics/DUMMY Multiplied Length Metric.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of DUMMY Multiplied Length Metric"
             }
           }
         ]
@@ -148,10 +164,15 @@
   },
   "active": "7b64dae3c9d62616",
   "lastOpenFiles": [
+    "Types/DUMMY ABCDEF Type.md",
+    "Spaces/DUMMY ABCDEF Space.md",
+    "Control Actions/DUMMY Length-1 DEF Control Action.md",
+    "Wiring/DUMMY Control Wiring.md",
+    "Spec Tree.md",
+    "Displays/Wiring/Boundary Wirings.md",
     "Displays/Wiring/All Top Level Wirings.md",
     "Boundary Actions/DUMMY Length-2 ABC Combo Boundary Action.md",
     "Boundary Actions/DUMMY Length-1 ABC Boundary Action.md",
-    "Control Actions/DUMMY Length-1 DEF Control Action.md",
     "Mechanisms/DUMMY Log Results Mechanism.md",
     "Parameters/DUMMY Length Multiplier.md",
     "Parameters/DUMMY D Probability.md",
@@ -160,8 +181,6 @@
     "State Variables/DUMMY State-Total Length.md",
     "States/DUMMY State.md",
     "Wiring/DUMMY Length-2 Boundary Wiring.md",
-    "Wiring/DUMMY Length-1 Boundary Wiring.md",
-    "Wiring/DUMMY Control Wiring.md",
-    "Spec Tree.md"
+    "Wiring/DUMMY Length-1 Boundary Wiring.md"
   ]
 }
