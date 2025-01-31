@@ -41,15 +41,13 @@ blocks3 = [
     "DUMMY Control Wiring",
 ]
 
-model3 = (
-    ms.build_cadCAD(
-        blocks3,
-        state_preperation_functions=[compute_starting_total_length],
-        parameter_preperation_functions=[check_d_probability],
-        fixed_state={"Time": 0},
-        fixed_parameters={
-            "FP DUMMY Length-1 DEF Control Action": "DUMMY Length-1 DEF Equal Weight Option",
-            "FP DUMMY Length-2 ABC Combo Boundary Action": "DUMMY Length-2 ABC Equal Weight Option",
-        },
-    )
-).values()
+model3 = ms.build_cadCAD(
+    blocks3,
+    state_preperation_functions=[compute_starting_total_length],
+    parameter_preperation_functions=[check_d_probability],
+    fixed_state={"Time": 0},
+    fixed_parameters={
+        "FP DUMMY Length-1 DEF Control Action": "DUMMY Length-1 DEF Equal Weight Option",
+        "FP DUMMY Length-2 ABC Combo Boundary Action": "DUMMY Length-2 ABC Equal Weight Option",
+    },
+)

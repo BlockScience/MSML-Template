@@ -23,23 +23,32 @@ X2["DUMMY Letter Count Policy"]
 subgraph X7["DUMMY State Update Mechanisms"]
 direction TB
 X3["DUMMY Update Dummy Entity Mechanism"]
-X3 --> EES1
-X3 --> EES0
+X3 --"State Update"--> EES0
+X3 --"State Update"--> EES1
 X4["DUMMY Increment Time Mechanism"]
-X4 --> EES3
+X4 --"State Update"--> EES3
 X5[Domain]
 
 direction LR
 direction TB
-X5 --"DUMMY String Length Space"--> X3
+X5 --"<a href='DUMMY String Length Space' class=internal-link>DUMMY String Length Space</a>"--> X3
 X5 --> X4
 end
 X8["DUMMY Log Simulation Data Mechanism"]
-X8 --> EES2
-X1--"DUMMY ABCDEF Space"--->X2
-X2--"DUMMY String Length Space"--->X7
+X8 --"State Update"--> EES2
+X1--"<a href='DUMMY ABCDEF Space' class=internal-link>DUMMY ABCDEF Space</a>"--->X2
+X2--"<a href='DUMMY String Length Space' class=internal-link>DUMMY String Length Space</a>"--->X7
 X7--->X8
 end
+class X1 internal-link;
+class X2 internal-link;
+class X3 internal-link;
+class X4 internal-link;
+class X6 internal-link;
+class X8 internal-link;
+class EE0 internal-link;
+class EE1 internal-link;
+
 ```
 
 ```mermaid
@@ -65,23 +74,32 @@ X2["DUMMY Letter Count Policy"]
 subgraph X7["DUMMY State Update Mechanisms"]
 direction TB
 X3["DUMMY Update Dummy Entity Mechanism"]
-X3 --> EES1
-X3 --> EES0
+X3 --"State Update"--> EES0
+X3 --"State Update"--> EES1
 X4["DUMMY Increment Time Mechanism"]
-X4 --> EES3
+X4 --"State Update"--> EES3
 X5[Domain]
 
 direction LR
 direction TB
-X5 --"DUMMY String Length Space"--> X3
+X5 --"<a href='DUMMY String Length Space' class=internal-link>DUMMY String Length Space</a>"--> X3
 X5 --> X4
 end
 X8["DUMMY Log Simulation Data Mechanism"]
-X8 --> EES2
-X1--"DUMMY ABCDEF Space"--->X2
-X2--"DUMMY String Length Space"--->X7
+X8 --"State Update"--> EES2
+X1--"<a href='DUMMY ABCDEF Space' class=internal-link>DUMMY ABCDEF Space</a>"--->X2
+X2--"<a href='DUMMY String Length Space' class=internal-link>DUMMY String Length Space</a>"--->X7
 X7--->X8
 end
+class X1 internal-link;
+class X2 internal-link;
+class X3 internal-link;
+class X4 internal-link;
+class X6 internal-link;
+class X8 internal-link;
+class EE0 internal-link;
+class EE1 internal-link;
+
 ```
 
 ```mermaid
@@ -107,23 +125,32 @@ X2["DUMMY Letter Count Policy"]
 subgraph X7["DUMMY State Update Mechanisms"]
 direction TB
 X3["DUMMY Update Dummy Entity Mechanism"]
-X3 --> EES1
-X3 --> EES0
+X3 --"State Update"--> EES0
+X3 --"State Update"--> EES1
 X4["DUMMY Increment Time Mechanism"]
-X4 --> EES3
+X4 --"State Update"--> EES3
 X5[Domain]
 
 direction LR
 direction TB
-X5 --"DUMMY String Length Space"--> X3
+X5 --"<a href='DUMMY String Length Space' class=internal-link>DUMMY String Length Space</a>"--> X3
 X5 --> X4
 end
 X8["DUMMY Log Simulation Data Mechanism"]
-X8 --> EES2
-X1--"DUMMY ABCDEF Space"--->X2
-X2-."DUMMY String Length Space"..->X7
+X8 --"State Update"--> EES2
+X1--"<a href='DUMMY ABCDEF Space' class=internal-link>DUMMY ABCDEF Space</a>"--->X2
+X2-."<a href='DUMMY String Length Space' class=internal-link>DUMMY String Length Space</a>"..->X7
 X7--->X8
 end
+class X1 internal-link;
+class X2 internal-link;
+class X3 internal-link;
+class X4 internal-link;
+class X6 internal-link;
+class X8 internal-link;
+class EE0 internal-link;
+class EE1 internal-link;
+
 ```
 
 ## Description
@@ -146,4 +173,8 @@ The wirings which are not components of other wirings.
 ## Unique Parameters Used
 1. [[DUMMY D Probability]]
 2. [[DUMMY Length Multiplier]]
+
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../../src/Displays/wiring.py#L4](../../../../../src/Displays/wiring.py#L4)
 

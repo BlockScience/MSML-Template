@@ -17,6 +17,8 @@ cssclasses:
 ├──**Stateful Metrics**
 │   ├──DUMMY Stateful Metrics
 │   │   ├──[[DUMMY Nominal Length Stateful Metric]]
+├──**Metrics**
+│   ├──[[DUMMY Multiplied Length Metric]]
 ├──**Types**
 │   ├──[[DUMMY ABCDEF Type]]
 │   ├──[[DUMMY Integer Type]]
@@ -43,3 +45,8 @@ cssclasses:
 │   ├──[[DUMMY Update Dummy Entity Mechanism]]
 │   ├──[[DUMMY Increment Time Mechanism]]
 │   ├──[[DUMMY Log Simulation Data Mechanism]]
+├──**Wirings**
+│   ├──[[DUMMY State Update Mechanisms]]
+│   ├──[[DUMMY Length-1 Boundary Wiring]]
+│   ├──[[DUMMY Control Wiring]]
+│   ├──[[DUMMY Length-2 Boundary Wiring]]

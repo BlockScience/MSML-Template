@@ -10,3 +10,7 @@ The state of the local DUMMY entity
 ## Updated By
 ### [[DUMMY Update Dummy Entity Mechanism]]
 ### [[DUMMY Update Dummy Entity Mechanism]]
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/State/Dummy.py#L2](../../../../src/State/Dummy.py#L2)
+

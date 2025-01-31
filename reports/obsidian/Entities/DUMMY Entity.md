@@ -20,3 +20,7 @@ The state of the local DUMMY entity
 ### [[DUMMY Length-2 ABC Combo Boundary Action]]
 ### [[DUMMY Length-1 DEF Control Action]]
 ### [[DUMMY Length-1 ABC Boundary Action]]
+## Spec Source Code Location
+
+Spec Path (only works if vault is opened at level including the src folder): [../../../../src/Entities/Dummy.py#L2](../../../../src/Entities/Dummy.py#L2)
+
